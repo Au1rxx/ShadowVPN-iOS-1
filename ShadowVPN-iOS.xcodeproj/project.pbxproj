@@ -107,10 +107,8 @@
 		46883FCE1B7366C6001DE41F /* fe_add_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB11B7366C6001DE41F /* fe_add_curve25519_ref10.c */; };
 		46883FCF1B7366C6001DE41F /* fe_copy_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB21B7366C6001DE41F /* fe_copy_curve25519_ref10.c */; };
 		46883FD01B7366C6001DE41F /* fe_cswap_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB31B7366C6001DE41F /* fe_cswap_curve25519_ref10.c */; };
-		46883FD21B7366C6001DE41F /* fe_invert_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB51B7366C6001DE41F /* fe_invert_curve25519_ref10.c */; };
 		46883FD61B7366C6001DE41F /* fe_sub_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB91B7366C6001DE41F /* fe_sub_curve25519_ref10.c */; };
 		46883FD71B7366C6001DE41F /* fe_tobytes_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EBA1B7366C6001DE41F /* fe_tobytes_curve25519_ref10.c */; };
-		46883FD81B7366C6001DE41F /* scalarmult_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EBD1B7366C6001DE41F /* scalarmult_curve25519_ref10.c */; };
 		46883FD91B7366C6001DE41F /* scalarmult_curve25519_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EBE1B7366C6001DE41F /* scalarmult_curve25519_api.c */; };
 		46883FDA1B7366C6001DE41F /* crypto_secretbox.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EC01B7366C6001DE41F /* crypto_secretbox.c */; };
 		46883FDB1B7366C6001DE41F /* crypto_secretbox_easy.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EC11B7366C6001DE41F /* crypto_secretbox_easy.c */; };
@@ -125,7 +123,6 @@
 		46883FE41B7366C6001DE41F /* fe_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDA1B7366C6001DE41F /* fe_add.c */; };
 		46883FE51B7366C6001DE41F /* fe_cmov.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDB1B7366C6001DE41F /* fe_cmov.c */; };
 		46883FE61B7366C6001DE41F /* fe_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDC1B7366C6001DE41F /* fe_copy.c */; };
-		46883FE71B7366C6001DE41F /* fe_frombytes.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDD1B7366C6001DE41F /* fe_frombytes.c */; };
 		46883FE81B7366C6001DE41F /* fe_invert.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDE1B7366C6001DE41F /* fe_invert.c */; };
 		46883FE91B7366C6001DE41F /* fe_isnegative.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDF1B7366C6001DE41F /* fe_isnegative.c */; };
 		46883FEA1B7366C6001DE41F /* fe_isnonzero.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EE01B7366C6001DE41F /* fe_isnonzero.c */; };
@@ -231,7 +228,6 @@
 		46A9293C1B73206000E40132 /* NSData+KDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A929051B73206000E40132 /* NSData+KDUtilities.m */; };
 		46A9293E1B73206000E40132 /* NSDate+KDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A929071B73206000E40132 /* NSDate+KDUtilities.m */; };
 		46A929401B73206000E40132 /* NSDictionary+KDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A929091B73206000E40132 /* NSDictionary+KDUtilities.m */; };
-		46A929421B73206000E40132 /* NSObject+PerformBlockAfterDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A9290B1B73206000E40132 /* NSObject+PerformBlockAfterDelay.m */; };
 		46A929441B73206000E40132 /* UIImage+KDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A9290D1B73206000E40132 /* UIImage+KDUtilities.m */; };
 		46A929461B73206000E40132 /* UILabel+ResizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A9290F1B73206000E40132 /* UILabel+ResizeHelper.m */; };
 		46A929481B73206000E40132 /* UIView+KDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A929111B73206000E40132 /* UIView+KDUtilities.m */; };
@@ -309,10 +305,8 @@
 		46D014D01B74888500BB8CF0 /* fe_add_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB11B7366C6001DE41F /* fe_add_curve25519_ref10.c */; };
 		46D014D11B74889D00BB8CF0 /* fe_copy_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB21B7366C6001DE41F /* fe_copy_curve25519_ref10.c */; };
 		46D014D21B74889D00BB8CF0 /* fe_cswap_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB31B7366C6001DE41F /* fe_cswap_curve25519_ref10.c */; };
-		46D014D41B74889D00BB8CF0 /* fe_invert_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB51B7366C6001DE41F /* fe_invert_curve25519_ref10.c */; };
 		46D014D81B74889D00BB8CF0 /* fe_sub_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB91B7366C6001DE41F /* fe_sub_curve25519_ref10.c */; };
 		46D014D91B74889D00BB8CF0 /* fe_tobytes_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EBA1B7366C6001DE41F /* fe_tobytes_curve25519_ref10.c */; };
-		46D014DC1B74889D00BB8CF0 /* scalarmult_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EBD1B7366C6001DE41F /* scalarmult_curve25519_ref10.c */; };
 		46D014DD1B74889D00BB8CF0 /* scalarmult_curve25519_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EBE1B7366C6001DE41F /* scalarmult_curve25519_api.c */; };
 		46D014DE1B74889D00BB8CF0 /* crypto_secretbox.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EC01B7366C6001DE41F /* crypto_secretbox.c */; };
 		46D014DF1B74889D00BB8CF0 /* crypto_secretbox_easy.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EC11B7366C6001DE41F /* crypto_secretbox_easy.c */; };
@@ -327,7 +321,6 @@
 		46D014F01B74889D00BB8CF0 /* fe_add.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDA1B7366C6001DE41F /* fe_add.c */; };
 		46D014F11B74889D00BB8CF0 /* fe_cmov.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDB1B7366C6001DE41F /* fe_cmov.c */; };
 		46D014F21B74889D00BB8CF0 /* fe_copy.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDC1B7366C6001DE41F /* fe_copy.c */; };
-		46D014F31B74889D00BB8CF0 /* fe_frombytes.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDD1B7366C6001DE41F /* fe_frombytes.c */; };
 		46D014F41B74889D00BB8CF0 /* fe_invert.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDE1B7366C6001DE41F /* fe_invert.c */; };
 		46D014F51B74889D00BB8CF0 /* fe_isnegative.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDF1B7366C6001DE41F /* fe_isnegative.c */; };
 		46D014F61B74889D00BB8CF0 /* fe_isnonzero.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EE01B7366C6001DE41F /* fe_isnonzero.c */; };
@@ -405,6 +398,22 @@
 		46E552851B76171300B0E0C8 /* SettingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E552831B76171300B0E0C8 /* SettingsModel.m */; };
 		46EC10D21B78A96900E7B3EF /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EC10D11B78A96900E7B3EF /* libresolv.tbd */; };
 		46EC10D51B78AF3300E7B3EF /* NetworkInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC10D41B78AF3300E7B3EF /* NetworkInterfaceManager.m */; };
+		B7AC8F911C816E79000B1169 /* fe_frombytes.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDD1B7366C6001DE41F /* fe_frombytes.c */; };
+		B7AC8F921C816E7A000B1169 /* fe_frombytes.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDD1B7366C6001DE41F /* fe_frombytes.c */; };
+		B7AC8F951C8171DF000B1169 /* fe_frombytes_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB41B7366C6001DE41F /* fe_frombytes_curve25519_ref10.c */; };
+		B7AC8F961C8171E0000B1169 /* fe_frombytes_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB41B7366C6001DE41F /* fe_frombytes_curve25519_ref10.c */; };
+		B7AC8F971C8171E5000B1169 /* scalarmult_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EBD1B7366C6001DE41F /* scalarmult_curve25519_ref10.c */; };
+		B7AC8F981C8171E5000B1169 /* scalarmult_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EBD1B7366C6001DE41F /* scalarmult_curve25519_ref10.c */; };
+		B7AC8F991C817257000B1169 /* fe_invert_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB51B7366C6001DE41F /* fe_invert_curve25519_ref10.c */; };
+		B7AC8F9A1C817257000B1169 /* fe_invert_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB51B7366C6001DE41F /* fe_invert_curve25519_ref10.c */; };
+		B7AC8F9B1C817294000B1169 /* fe_mul_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB71B7366C6001DE41F /* fe_mul_curve25519_ref10.c */; };
+		B7AC8F9C1C817294000B1169 /* fe_mul_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB71B7366C6001DE41F /* fe_mul_curve25519_ref10.c */; };
+		B7AC8F9D1C8172BF000B1169 /* fe_mul121666_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB61B7366C6001DE41F /* fe_mul121666_curve25519_ref10.c */; };
+		B7AC8F9E1C8172C0000B1169 /* fe_mul121666_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB61B7366C6001DE41F /* fe_mul121666_curve25519_ref10.c */; };
+		B7AC8F9F1C8172DF000B1169 /* fe_sq_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB81B7366C6001DE41F /* fe_sq_curve25519_ref10.c */; };
+		B7AC8FA01C8172E0000B1169 /* fe_sq_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB81B7366C6001DE41F /* fe_sq_curve25519_ref10.c */; };
+		B7AC8FA11C817300000B1169 /* sc25519_edwards25519sha512batch.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883F121B7366C6001DE41F /* sc25519_edwards25519sha512batch.c */; };
+		B7AC8FA21C817324000B1169 /* pwhash_scryptsalsa208sha256_nosse.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883E9C1B7366C6001DE41F /* pwhash_scryptsalsa208sha256_nosse.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -808,8 +817,6 @@
 		46A929071B73206000E40132 /* NSDate+KDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KDUtilities.m"; sourceTree = "<group>"; };
 		46A929081B73206000E40132 /* NSDictionary+KDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KDUtilities.h"; sourceTree = "<group>"; };
 		46A929091B73206000E40132 /* NSDictionary+KDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KDUtilities.m"; sourceTree = "<group>"; };
-		46A9290A1B73206000E40132 /* NSObject+PerformBlockAfterDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformBlockAfterDelay.h"; sourceTree = "<group>"; };
-		46A9290B1B73206000E40132 /* NSObject+PerformBlockAfterDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformBlockAfterDelay.m"; sourceTree = "<group>"; };
 		46A9290C1B73206000E40132 /* UIImage+KDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KDUtilities.h"; sourceTree = "<group>"; };
 		46A9290D1B73206000E40132 /* UIImage+KDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KDUtilities.m"; sourceTree = "<group>"; };
 		46A9290E1B73206000E40132 /* UILabel+ResizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ResizeHelper.h"; sourceTree = "<group>"; };
@@ -844,9 +851,6 @@
 		46EC10D11B78A96900E7B3EF /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		46EC10D31B78AF3300E7B3EF /* NetworkInterfaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkInterfaceManager.h; sourceTree = "<group>"; };
 		46EC10D41B78AF3300E7B3EF /* NetworkInterfaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkInterfaceManager.m; sourceTree = "<group>"; };
-		827DF95E91C11B795747C71C /* libPods-TunnelExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TunnelExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F1C1EDC21080C93A8AB2759 /* libPods-Tunnel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tunnel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3A4AF103438FD83D4213B77 /* libPods-ShadowVPN-Tunnel-Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShadowVPN-Tunnel-Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1852,7 +1856,6 @@
 			children = (
 				46E552801B76171300B0E0C8 /* Shared */,
 				46A928D81B73206000E40132 /* Vendor */,
-				46A54A261B57A8D2006941AD /* NetworkExtension.framework */,
 				46A549F61B579EC6006941AD /* ShadowVPN-iOS */,
 				46A54A131B57A077006941AD /* TunnelExtension */,
 				46D014671B7487AB00BB8CF0 /* ShadowVPN Test */,
@@ -1975,8 +1978,6 @@
 				46A929071B73206000E40132 /* NSDate+KDUtilities.m */,
 				46A929081B73206000E40132 /* NSDictionary+KDUtilities.h */,
 				46A929091B73206000E40132 /* NSDictionary+KDUtilities.m */,
-				46A9290A1B73206000E40132 /* NSObject+PerformBlockAfterDelay.h */,
-				46A9290B1B73206000E40132 /* NSObject+PerformBlockAfterDelay.m */,
 				46A9290C1B73206000E40132 /* UIImage+KDUtilities.h */,
 				46A9290D1B73206000E40132 /* UIImage+KDUtilities.m */,
 				46A9290E1B73206000E40132 /* UILabel+ResizeHelper.h */,
@@ -2035,10 +2036,8 @@
 		65DF3B8170CEFE2F29F3B9D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				46A54A261B57A8D2006941AD /* NetworkExtension.framework */,
 				46EC10D11B78A96900E7B3EF /* libresolv.tbd */,
-				827DF95E91C11B795747C71C /* libPods-TunnelExtension.a */,
-				8F1C1EDC21080C93A8AB2759 /* libPods-Tunnel.a */,
-				B3A4AF103438FD83D4213B77 /* libPods-ShadowVPN-Tunnel-Extension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2110,7 +2109,7 @@
 				TargetAttributes = {
 					46A549F31B579EC6006941AD = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 4F4J3526UU;
+						DevelopmentTeam = SUMG536Y57;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -2197,7 +2196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A929421B73206000E40132 /* NSObject+PerformBlockAfterDelay.m in Sources */,
 				4665F20A1B7501D70027BD4D /* NSArray+MTLManipulationAdditions.m in Sources */,
 				4665F2101B7501D70027BD4D /* NSDictionary+MTLMappingAdditions.m in Sources */,
 				46A9293E1B73206000E40132 /* NSDate+KDUtilities.m in Sources */,
@@ -2258,15 +2256,12 @@
 				468840011B7366C6001DE41F /* ge_scalarmult_base.c in Sources */,
 				46883FA21B7366C6001DE41F /* verify_hmacsha512256.c in Sources */,
 				46883FA91B7366C6001DE41F /* box_curve25519xsalsa20poly1305.c in Sources */,
-				46883FE71B7366C6001DE41F /* fe_frombytes.c in Sources */,
 				468840181B7366C6001DE41F /* stream_chacha20_api.c in Sources */,
 				46883F9F1B7366C6001DE41F /* verify_hmacsha512.c in Sources */,
 				46883F9C1B7366C6001DE41F /* verify_hmacsha256.c in Sources */,
 				46883FE91B7366C6001DE41F /* fe_isnegative.c in Sources */,
 				468840151B7366C6001DE41F /* xor_afternm_aes128ctr.c in Sources */,
 				46883FD71B7366C6001DE41F /* fe_tobytes_curve25519_ref10.c in Sources */,
-				46883FD81B7366C6001DE41F /* scalarmult_curve25519_ref10.c in Sources */,
-				46883FD21B7366C6001DE41F /* fe_invert_curve25519_ref10.c in Sources */,
 				4688400B1B7366C6001DE41F /* ge25519_edwards25519sha512batch.c in Sources */,
 				46883FF41B7366C6001DE41F /* ge_frombytes.c in Sources */,
 				468840121B7366C6001DE41F /* consts_aes128ctr.c in Sources */,
@@ -2292,6 +2287,8 @@
 				4665F1FF1B7501D70027BD4D /* MTLJSONAdapter.m in Sources */,
 				468840331B7366C6001DE41F /* version.c in Sources */,
 				460AE2611B7889760050B7C5 /* GCDAsyncUdpSocket.m in Sources */,
+				B7AC8F9F1C8172DF000B1169 /* fe_sq_curve25519_ref10.c in Sources */,
+				B7AC8FA11C817300000B1169 /* sc25519_edwards25519sha512batch.c in Sources */,
 				46D015591B74914A00BB8CF0 /* DNSPacket.m in Sources */,
 				4665F2131B7501D70027BD4D /* NSError+MTLModelException.m in Sources */,
 				468840001B7366C6001DE41F /* ge_precomp_0.c in Sources */,
@@ -2367,17 +2364,20 @@
 				46883FD61B7366C6001DE41F /* fe_sub_curve25519_ref10.c in Sources */,
 				4688400E1B7366C6001DE41F /* sign_edwards25519sha512batch_api.c in Sources */,
 				46883FC81B7366C6001DE41F /* crypto_scalarmult.c in Sources */,
+				B7AC8F9D1C8172BF000B1169 /* fe_mul121666_curve25519_ref10.c in Sources */,
 				46D0144B1B7452AA00BB8CF0 /* IPv4Packet.m in Sources */,
 				46883FC71B7366C6001DE41F /* pwhash_scryptsalsa208sha256_sse.c in Sources */,
 				4688401F1B7366C6001DE41F /* stream_salsa2012_api.c in Sources */,
 				468840201B7366C6001DE41F /* stream_salsa208.c in Sources */,
 				46883FC61B7366C6001DE41F /* scrypt_platform.c in Sources */,
 				46883FCC1B7366C6001DE41F /* fe_0_curve25519_ref10.c in Sources */,
+				B7AC8F921C816E7A000B1169 /* fe_frombytes.c in Sources */,
 				46883FE01B7366C6001DE41F /* shorthash_siphash24_api.c in Sources */,
 				4665F2191B7501D70027BD4D /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
 				46883F991B7366C6001DE41F /* crypto_auth.c in Sources */,
 				46883FB71B7366C6001DE41F /* crypto_hash.c in Sources */,
 				46883FF81B7366C6001DE41F /* ge_p1p1_to_p3.c in Sources */,
+				B7AC8FA21C817324000B1169 /* pwhash_scryptsalsa208sha256_nosse.c in Sources */,
 				46883FD01B7366C6001DE41F /* fe_cswap_curve25519_ref10.c in Sources */,
 				46883F9D1B7366C6001DE41F /* auth_hmacsha512_api.c in Sources */,
 				46883FF01B7366C6001DE41F /* fe_sub.c in Sources */,
@@ -2405,8 +2405,10 @@
 				46883FF91B7366C6001DE41F /* ge_p2_0.c in Sources */,
 				460AE25A1B7888D60050B7C5 /* DNSServer.m in Sources */,
 				4665F20B1B7501D70027BD4D /* NSArray+MTLManipulationAdditions.m in Sources */,
+				B7AC8F9C1C817294000B1169 /* fe_mul_curve25519_ref10.c in Sources */,
 				4665F2011B7501D70027BD4D /* MTLModel+NSCoding.m in Sources */,
 				4665F2071B7501D70027BD4D /* MTLTransformerErrorHandling.m in Sources */,
+				B7AC8F981C8171E5000B1169 /* scalarmult_curve25519_ref10.c in Sources */,
 				46883F9A1B7366C6001DE41F /* auth_hmacsha256_api.c in Sources */,
 				468840041B7366C6001DE41F /* keypair.c in Sources */,
 				4688401D1B7366C6001DE41F /* stream_salsa2012.c in Sources */,
@@ -2421,12 +2423,14 @@
 				46883FAB1B7366C6001DE41F /* core_hsalsa20_api.c in Sources */,
 				46883FB11B7366C6001DE41F /* core_salsa208_api.c in Sources */,
 				46883FBB1B7366C6001DE41F /* hash_sha512_api.c in Sources */,
+				B7AC8F961C8171E0000B1169 /* fe_frombytes_curve25519_ref10.c in Sources */,
 				46883FCA1B7366C6001DE41F /* smult_curve25519_donna_c64.c in Sources */,
 				468840311B7366C6001DE41F /* runtime.c in Sources */,
 				46883FCD1B7366C6001DE41F /* fe_1_curve25519_ref10.c in Sources */,
 				46883FDC1B7366C6001DE41F /* box_xsalsa20poly1305.c in Sources */,
 				465A14D41B7367CA00B3F674 /* randombytes_sysrandom.c in Sources */,
 				468840301B7366C6001DE41F /* core.c in Sources */,
+				B7AC8F991C817257000B1169 /* fe_invert_curve25519_ref10.c in Sources */,
 				46883FBF1B7366C6001DE41F /* onetimeauth_poly1305.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2436,11 +2440,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				46D014D11B74889D00BB8CF0 /* fe_copy_curve25519_ref10.c in Sources */,
+				B7AC8F9B1C817294000B1169 /* fe_mul_curve25519_ref10.c in Sources */,
 				46D014D21B74889D00BB8CF0 /* fe_cswap_curve25519_ref10.c in Sources */,
-				46D014D41B74889D00BB8CF0 /* fe_invert_curve25519_ref10.c in Sources */,
 				46D014D81B74889D00BB8CF0 /* fe_sub_curve25519_ref10.c in Sources */,
 				46D014D91B74889D00BB8CF0 /* fe_tobytes_curve25519_ref10.c in Sources */,
-				46D014DC1B74889D00BB8CF0 /* scalarmult_curve25519_ref10.c in Sources */,
 				46D014DD1B74889D00BB8CF0 /* scalarmult_curve25519_api.c in Sources */,
 				46D014DE1B74889D00BB8CF0 /* crypto_secretbox.c in Sources */,
 				46D014DF1B74889D00BB8CF0 /* crypto_secretbox_easy.c in Sources */,
@@ -2455,8 +2458,8 @@
 				46D014F01B74889D00BB8CF0 /* fe_add.c in Sources */,
 				46D014F11B74889D00BB8CF0 /* fe_cmov.c in Sources */,
 				46D014F21B74889D00BB8CF0 /* fe_copy.c in Sources */,
-				46D014F31B74889D00BB8CF0 /* fe_frombytes.c in Sources */,
 				46D014F41B74889D00BB8CF0 /* fe_invert.c in Sources */,
+				B7AC8F971C8171E5000B1169 /* scalarmult_curve25519_ref10.c in Sources */,
 				46D014F51B74889D00BB8CF0 /* fe_isnegative.c in Sources */,
 				46D014F61B74889D00BB8CF0 /* fe_isnonzero.c in Sources */,
 				46D014F71B74889D00BB8CF0 /* fe_mul.c in Sources */,
@@ -2498,6 +2501,7 @@
 				46D015281B74889D00BB8CF0 /* sign_edwards25519sha512batch_api.c in Sources */,
 				46D015291B74889D00BB8CF0 /* afternm_aes128ctr.c in Sources */,
 				46D0152B1B74889D00BB8CF0 /* beforenm_aes128ctr.c in Sources */,
+				B7AC8F9E1C8172C0000B1169 /* fe_mul121666_curve25519_ref10.c in Sources */,
 				46D0152D1B74889D00BB8CF0 /* common_aes128ctr.c in Sources */,
 				46D0152F1B74889D00BB8CF0 /* consts_aes128ctr.c in Sources */,
 				46D015311B74889D00BB8CF0 /* int128_aes128ctr.c in Sources */,
@@ -2548,6 +2552,8 @@
 				46D0149A1B74888400BB8CF0 /* keypair_curve25519xsalsa20poly1305.c in Sources */,
 				46D0149B1B74888400BB8CF0 /* core_hsalsa20_api.c in Sources */,
 				46D0149D1B74888400BB8CF0 /* core_hsalsa20.c in Sources */,
+				B7AC8F911C816E79000B1169 /* fe_frombytes.c in Sources */,
+				B7AC8F951C8171DF000B1169 /* fe_frombytes_curve25519_ref10.c in Sources */,
 				46D0149E1B74888400BB8CF0 /* core_salsa20_api.c in Sources */,
 				46D014A01B74888400BB8CF0 /* core_salsa20.c in Sources */,
 				46D014A11B74888400BB8CF0 /* core_salsa2012_api.c in Sources */,
@@ -2559,6 +2565,7 @@
 				46D014AC1B74888400BB8CF0 /* generichash_blake2b.c in Sources */,
 				46D014AD1B74888400BB8CF0 /* crypto_generichash.c in Sources */,
 				46D014AE1B74888400BB8CF0 /* crypto_hash.c in Sources */,
+				B7AC8FA01C8172E0000B1169 /* fe_sq_curve25519_ref10.c in Sources */,
 				46D014B01B74888400BB8CF0 /* hash_sha256.c in Sources */,
 				46D014B11B74888400BB8CF0 /* hash_sha256_api.c in Sources */,
 				46D014B31B74888400BB8CF0 /* hash_sha512.c in Sources */,
@@ -2566,6 +2573,7 @@
 				46D014B51B74888400BB8CF0 /* crypto_onetimeauth.c in Sources */,
 				46D014B61B74888400BB8CF0 /* auth_poly1305_donna.c in Sources */,
 				46D014BA1B74888400BB8CF0 /* verify_poly1305_donna.c in Sources */,
+				B7AC8F9A1C817257000B1169 /* fe_invert_curve25519_ref10.c in Sources */,
 				46D014BB1B74888400BB8CF0 /* onetimeauth_poly1305.c in Sources */,
 				46D014BC1B74888400BB8CF0 /* onetimeauth_poly1305_api.c in Sources */,
 				46D014BD1B74888400BB8CF0 /* onetimeauth_poly1305_try.c in Sources */,
@@ -2715,13 +2723,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "ShadowVPN-iOS/ShadowVPN-iOS.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ShadowVPN-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.yach.shadowvpn-ios";
 				PRODUCT_NAME = "ShadowVPN-iOS";
-				PROVISIONING_PROFILE = "1164304f-d1f5-457d-b8af-605da2ce9941";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -2730,13 +2736,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "ShadowVPN-iOS/ShadowVPN-iOS.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ShadowVPN-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.yach.shadowvpn-ios";
 				PRODUCT_NAME = "ShadowVPN-iOS";
-				PROVISIONING_PROFILE = "1164304f-d1f5-457d-b8af-605da2ce9941";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
