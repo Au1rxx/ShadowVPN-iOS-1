@@ -17,8 +17,6 @@
 		4665F1F91B7501D70027BD4D /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4665F1D61B7501D70027BD4D /* EXTRuntimeExtensions.m */; };
 		4665F1FA1B7501D70027BD4D /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 4665F1D81B7501D70027BD4D /* EXTScope.m */; };
 		4665F1FB1B7501D70027BD4D /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 4665F1D81B7501D70027BD4D /* EXTScope.m */; };
-		4665F1FC1B7501D70027BD4D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4665F1DA1B7501D70027BD4D /* Info.plist */; };
-		4665F1FD1B7501D70027BD4D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4665F1DA1B7501D70027BD4D /* Info.plist */; };
 		4665F1FE1B7501D70027BD4D /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4665F1DD1B7501D70027BD4D /* MTLJSONAdapter.m */; };
 		4665F1FF1B7501D70027BD4D /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4665F1DD1B7501D70027BD4D /* MTLJSONAdapter.m */; };
 		4665F2001B7501D70027BD4D /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4665F1DF1B7501D70027BD4D /* MTLModel+NSCoding.m */; };
@@ -454,7 +452,6 @@
 		4665F1D71B7501D70027BD4D /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
 		4665F1D81B7501D70027BD4D /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
 		4665F1D91B7501D70027BD4D /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
-		4665F1DA1B7501D70027BD4D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4665F1DB1B7501D70027BD4D /* Mantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mantle.h; sourceTree = "<group>"; };
 		4665F1DC1B7501D70027BD4D /* MTLJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLJSONAdapter.h; sourceTree = "<group>"; };
 		4665F1DD1B7501D70027BD4D /* MTLJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLJSONAdapter.m; sourceTree = "<group>"; };
@@ -896,7 +893,6 @@
 			isa = PBXGroup;
 			children = (
 				4665F1D31B7501D70027BD4D /* extobjc */,
-				4665F1DA1B7501D70027BD4D /* Info.plist */,
 				4665F1DB1B7501D70027BD4D /* Mantle.h */,
 				4665F1DC1B7501D70027BD4D /* MTLJSONAdapter.h */,
 				4665F1DD1B7501D70027BD4D /* MTLJSONAdapter.m */,
@@ -2161,7 +2157,6 @@
 				46A0B8041B7363C500068C8D /* LaunchScreen.storyboard in Resources */,
 				46A0B8081B7363CE00068C8D /* Images.xcassets in Resources */,
 				46A0B8061B7363C500068C8D /* ShadowVPN-iOS.entitlements in Resources */,
-				4665F1FC1B7501D70027BD4D /* Info.plist in Resources */,
 				466D84EE1B7349A500675CC2 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2174,7 +2169,6 @@
 				46D4885A1B739DEC005A453E /* bestroutetb.txt in Resources */,
 				46A54A251B57A0F8006941AD /* PacketTunnel.entitlements in Resources */,
 				466D84F01B734BAA00675CC2 /* chnroutes.txt in Resources */,
-				4665F1FD1B7501D70027BD4D /* Info.plist in Resources */,
 				4688402C1B7366C6001DE41F /* version.h.in in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
