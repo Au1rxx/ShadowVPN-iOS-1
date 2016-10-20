@@ -231,7 +231,6 @@
 		46A929481B73206000E40132 /* UIView+KDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A929111B73206000E40132 /* UIView+KDUtilities.m */; };
 		46CFF4BF1B72FF1A00786BE1 /* crypto_secretbox_salsa208poly1305.c in Sources */ = {isa = PBXBuildFile; fileRef = 46CFF4BB1B72FF1A00786BE1 /* crypto_secretbox_salsa208poly1305.c */; };
 		46D0144B1B7452AA00BB8CF0 /* IPv4Packet.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D7056D1B744C0A001E38D6 /* IPv4Packet.m */; };
-		46D0144C1B74543800BB8CF0 /* KDLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A928EF1B73206000E40132 /* KDLogger.m */; };
 		46D014551B74555200BB8CF0 /* LoggerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D014541B74555200BB8CF0 /* LoggerViewController.m */; };
 		46D014591B745A0300BB8CF0 /* UDPPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D014571B7457E000BB8CF0 /* UDPPacket.m */; };
 		46D0146A1B7487AB00BB8CF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D014691B7487AB00BB8CF0 /* main.m */; };
@@ -396,6 +395,7 @@
 		46E552851B76171300B0E0C8 /* SettingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E552831B76171300B0E0C8 /* SettingsModel.m */; };
 		46EC10D21B78A96900E7B3EF /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EC10D11B78A96900E7B3EF /* libresolv.tbd */; };
 		46EC10D51B78AF3300E7B3EF /* NetworkInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EC10D41B78AF3300E7B3EF /* NetworkInterfaceManager.m */; };
+		B74FF54D1DB85B7400FD11D1 /* KDLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A928EF1B73206000E40132 /* KDLogger.m */; };
 		B7AC8F911C816E79000B1169 /* fe_frombytes.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDD1B7366C6001DE41F /* fe_frombytes.c */; };
 		B7AC8F921C816E7A000B1169 /* fe_frombytes.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EDD1B7366C6001DE41F /* fe_frombytes.c */; };
 		B7AC8F951C8171DF000B1169 /* fe_frombytes_curve25519_ref10.c in Sources */ = {isa = PBXBuildFile; fileRef = 46883EB41B7366C6001DE41F /* fe_frombytes_curve25519_ref10.c */; };
@@ -2315,6 +2315,7 @@
 				46EC10D51B78AF3300E7B3EF /* NetworkInterfaceManager.m in Sources */,
 				46883FF31B7366C6001DE41F /* ge_double_scalarmult.c in Sources */,
 				46A54A231B57A0E9006941AD /* PacketTunnelProvider.m in Sources */,
+				B74FF54D1DB85B7400FD11D1 /* KDLogger.m in Sources */,
 				468840141B7366C6001DE41F /* stream_aes128ctr.c in Sources */,
 				46883FFE1B7366C6001DE41F /* ge_p3_to_p2.c in Sources */,
 				4688401C1B7366C6001DE41F /* stream_salsa20_api.c in Sources */,
@@ -2343,7 +2344,6 @@
 				46883FAF1B7366C6001DE41F /* core_salsa2012_api.c in Sources */,
 				46883FC01B7366C6001DE41F /* onetimeauth_poly1305_api.c in Sources */,
 				46883FE21B7366C6001DE41F /* fe_0.c in Sources */,
-				46D0144C1B74543800BB8CF0 /* KDLogger.m in Sources */,
 				4665F1FB1B7501D70027BD4D /* EXTScope.m in Sources */,
 				46883FA11B7366C6001DE41F /* hmac_hmacsha512256.c in Sources */,
 				468840061B7366C6001DE41F /* sc_muladd.c in Sources */,
